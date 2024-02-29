@@ -1,6 +1,6 @@
 # sunlamp-esp8266
 
-A bunch of LED-ribbons on aluminium profiles, driven by an ESP8266
+A wifi enabled lamp, made from a bunch of LED-ribbons on aluminium profiles and driven by an ESP8266
 
 Finland is famously dark in winter, so I wanted to have a big lamp with natural white, that could fill up a living room with nice warm light.
 
