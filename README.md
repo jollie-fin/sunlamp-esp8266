@@ -6,11 +6,11 @@ Finland is famously dark in winter, so I wanted to have a big lamp with natural 
 
 Designed around an ESP8266 on a protoboard, some mosfet drivers, two mosfets. Probably not ok EMI-wise...
 
-A wifi interface is available to change color temperature and brightness
+A wifi interface is available to change brightness, enable or disable alarm clock, etc.
+
+A nice feature is that the color temperature change depending on the brightness. It starts orangy, yellow, white, and even gets a slight blue hue. Perfect for waking up.
 
 Some cares have been taken to reduce standby power consumption (<1W)
-
-Features a few on-off events stored in emulated-EEPROM, to be used as an alarm-clock
 
 Thanks to [DIY Perks](https://youtu.be/V5uycGosYq4?t=491) for the idea
 
@@ -25,5 +25,7 @@ An RPI Pico W would have been a better choice, since it features hardware PWN
 
 ## Images
 
+![Website](./images%20for%20README/website.png)
 ![Circuit board](./images%20for%20README/lamp_4.jpg 'Circuit board')
 ![Main view](./images%20for%20README/lamp_2.jpg 'Main view')
+![Schematic for version 2](./images%20for%20README/schematic.png 'Schematic for version 2')
